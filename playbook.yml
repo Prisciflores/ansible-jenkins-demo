@@ -1,0 +1,9 @@
+---
+- name: Demo con Ansible desde Jenkins  # Nombre del playbook
+  hosts: all                            # Aplica a todos los hosts definidos en el inventario
+  become: true                          # Usa sudo para ejecutar las tareas
+
+  tasks:
+    - name: Mostrar mensaje de demo     # Nombre descriptivo de la tarea
+      debug:
+        msg: "¡Este playbook fue ejecutado desde Jenkins!"  # Mensaje de prueba

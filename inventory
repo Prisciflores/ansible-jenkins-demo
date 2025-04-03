@@ -1,0 +1,3 @@
+# Grupo llamado "demo"
+[demo]
+localhost ansible_connection=local  # Ejecuta las tareas en esta misma máquina, sin SSH
