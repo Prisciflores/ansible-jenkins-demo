@@ -24,8 +24,10 @@ Este proyecto muestra un flujo de integración entre **Jenkins** y **Ansible**, 
 
 ## 🗂️ Estructura del repositorio
 
-<pre> ```bash ansible-jenkins-demo/ ├── inventory # Archivo de inventario con localhost como destino ├── playbook.yml # Playbook que se ejecuta desde Jenkins └── README.md # Explicación del proyecto, pasos, herramientas y uso ``` </pre>
-
+ansible-jenkins-demo/
+├── inventory        # Archivo de inventario con localhost como destino
+├── playbook.yml     # Playbook que se ejecuta desde Jenkins
+└── README.md        # Explicación del proyecto, pasos, herramientas y uso
 
 ---
 
@@ -51,3 +53,10 @@ sudo docker compose up -d
 ✅ Resultado esperado
 
 msg: "¡Este playbook fue ejecutado desde Jenkins!"
+
+---
+
+## 🧑💻 Autor
+
+Priscila Flores – DevOps | Cloud Engineer
+📍 Santiago, Chile
