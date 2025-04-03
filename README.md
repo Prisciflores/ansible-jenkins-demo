@@ -24,10 +24,12 @@ Este proyecto muestra un flujo de integración entre **Jenkins** y **Ansible**, 
 
 ## 📁 Estructura del proyecto
 
+```
 ansible-jenkins-demo/
 ├── inventory        # Archivo de inventario con localhost como destino
 ├── playbook.yml     # Playbook que se ejecuta desde Jenkins
 └── README.md        # Explicación del proyecto, pasos, herramientas y uso
+```
 
 ---
 
